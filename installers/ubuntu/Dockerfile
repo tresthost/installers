@@ -22,9 +22,9 @@
 
 FROM        --platform=$TARGETOS/$TARGETARCH ubuntu:focal
 
-LABEL       author="oliver194" maintainer="100048880+oliver194@users.noreply.github.com"
+LABEL       author="Matthew Penner" maintainer="matthew@pterodactyl.io"
 
-LABEL       org.opencontainers.image.source="https://github.com/oliver194/yolks"
+LABEL       org.opencontainers.image.source="https://github.com/tresthost/installers"
 LABEL       org.opencontainers.image.licenses=MIT
 
 ENV         DEBIAN_FRONTEND=noninteractive
